@@ -18,5 +18,6 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "start": "gatsby serve"
+	 "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   }
 }
